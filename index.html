@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Тестовое Meatinfo</title>
+  <link href="css/style.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body class="page">
+  <header class="page__header header">
+    <div class="header__first-block"></div>
+    <div class="header__second-block"></div>
+  </header>
+  <main class="page__main main">
+    <section class="main__content content">
+      <div class="content__company-header company-header">
+        <ul class="company-header__breadcrumbs breadcrumbs">
+          <li class="breadcrumbs__item"><a href="#">Главная</a></li>
+          <li class="breadcrumbs__item"><a href="#">Мясные компании в Москве</a></li>
+          <li class="breadcrumbs__item breadcrumbs__item--current">Преображенский МПК, ООО</li>
+        </ul>
+        <form class="company-header__search search">
+          <input class="search__input" type="text" placeholder="Поиск по компаниям">
+          <button class="search__button" type="submit"></button>
+        </form>
+        <div class="company-header__go-back">
+          <svg width="12" height="10" class="company-header__go-back-arrow">
+            <use xlink:href="img/sprite.svg#arrow"></use>
+          </svg>
+          <a href="#">
+            <p class="company-header__go-back-text text-link">К каталогу компаний</p>
+          </a>
+        </div>
+        <div class="company-header__title">
+          <svg width="20" height="20" class="company-header__title-label">
+            <use xlink:href="img/sprite.svg#label"></use>
+          </svg>
+          <span class="company-header__tooltip">Реквизиты компании проверены банковским переводом</span>
+          <h1 class="company-header__title-text">Преображенский МПК, ООО</h1>
+        </div>
+        <div class="company-header__wrapper">
+          <p class="company-header__views">578 (+2)</p>
+          <a href="#" class="company-header__feedback  text-link">Оставить отзыв</a>
+          <button class="company-header__button button">Работаете в этой компании?</button>
+        </div>
+      </div>
+      <div class="content__wrapper">
+        <div class="content__offer offer">
+          <h2 class="offer__title">Последние объявления сотрудников компании</h2>
+          <table class="offer__table table">
+            <thead class="table__header">
+              <tr class="table__row-header">
+                <th class="table__col-1">Объявление</th>
+                <th class="table__col-2">Время</th>
+                <th class="table__col-3"> <svg width="20" height="15">
+                  <use xlink:href="img/sprite.svg#view"></use>
+                </svg>
+                </th>
+                <th class="table__col-4">Опубликовал</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table__row">
+                <td class="table__cell-ad">
+                  <div class="table__ad">
+                    <p class="table__label table__label--sale">Продам</p>
+                    <p class="table__text text-link"><a href="#">Желудки куриные очищенные 60 руб.</a></p>
+                  </div>
+                </td>
+                <td class="table__date"> <span class="table__date-label">Время </span> 5 фев</td>
+                <td class="table__view">155</td>
+                <td>
+                  <div class="table__author">
+                    <img width="30" height="40" src="img/photo.png" alt="Нет фото" class="table__img">
+                    <div class="table__user">
+                      <p class="table__name text-link"><a href="#">Татьяна Лобач</a></p>
+                      <p class="table__plant">Орехово-Зуевский мясокомб...</p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell-ad">
+                  <div class="table__ad">
+                    <p class="table__label table__label--sale">Продам</p>
+                    <p class="table__text text-link"><a href="#">ГоленьЦБ(подл) 100р, Желудки кур.очиш 60 р</a></p>
+                  </div>
+                </td>
+                <td class="table__date"> <span class="table__date-label">Время</span>27 янв</td>
+                <td class="table__view">185</td>
+                <td>
+                  <div class="table__author">
+                    <img width="30" height="40" src="img/photo.png" alt="Нет фото" class="table__img">
+                    <div class="table__user">
+                      <p class="table__name text-link"><a href="#">Татьяна Лобач</a></p>
+                      <p class="table__plant">Орехово-Зуевский мясокомб...</p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell-ad">
+                  <div class="table__ad">
+                    <p class="table__label table__label--buy">Куплю</p>
+                    <p class="table__text text-link"><a href="#">Курица, Индейка, Говядина, Свинина от МК</a></p>
+                  </div>
+                </td>
+                <td class="table__date"> <span class="table__date-label">Время</span>21 апр</td>
+                <td class="table__view">42609</td>
+                <td>
+                  <div class="table__author">
+                    <img width="30" height="40" src="img/photo.png" alt="Нет фото" class="table__img">
+                    <div class="table__user">
+                      <p class="table__name text-link"><a href="#">Татьяна Лобач</a></p>
+                      <p class="table__plant">Орехово-Зуевский мясокомб...</p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell-ad">
+                  <div class="table__ad">
+                    <p class="table__label table__label--buy">Куплю</p>
+                    <p class="table__text text-link"><a href="#">ГоленьЦБ(подл) 100р, Желудки кур.очиш 60 р</a></p>
+                  </div>
+                </td>
+                <td class="table__date"> <span class="table__date-label">Время</span>27 фев</td>
+                <td class="table__view">319</td>
+                <td>
+                  <div class="table__author">
+                    <img width="30" height="40" src="img/photo.png" alt="Нет фото" class="table__img">
+                    <div class="table__user">
+                      <p class="table__name text-link"><a href="#">Татьяна Лобач</a></p>
+                      <p class="table__plant">Орехово-Зуевский мясокомб...</p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell-ad">
+                  <div class="table__ad">
+                    <p class="table__label table__label--sale">Продам</p>
+                    <p class="table__text text-link"><a href="#">Курица, Индейка, Говядина, Свинина от МК</a></p>
+                  </div>
+                </td>
+                <td class="table__date"> <span class="table__date-label">Время</span> 7 фев</td>
+                <td class="table__view">10072</td>
+                <td>
+                  <div class="table__author">
+                    <img width="30" height="40" src="img/photo.png" alt="Нет фото" class="table__img">
+                    <div class="table__user">
+                      <p class="table__name text-link"><a href="#">Татьяна Лобач</a></p>
+                      <p class="table__plant">Орехово-Зуевский мясокомб...</p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell-ad">
+                  <div class="table__ad">
+                    <p class="table__label table__label--sale">Продам</p>
+                    <p class="table__text text-link"><a href="#">Фарш куриный ММО люкс 40руб/кг</a></p>
+                  </div>
+                </td>
+                <td class="table__date"> <span class="table__date-label">Время</span> 7 фев</td>
+                <td class="table__view">300</td>
+                <td>
+                  <div class="table__author">
+                    <img width="30" height="40" src="img/user.jpg" alt="Виталий Пчелинцев" class="table__img">
+                    <div class="table__user">
+                      <p class="table__name text-link"><a href="#">Виталий Пчелинцев</a></p>
+                      <p class="table__plant">ООО ОКЕАНФИШ</p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell-ad">
+                  <div class="table__ad">
+                    <p class="table__label table__label--sale">Продам</p>
+                    <p class="table__text text-link"><a href="#">Голень ЦБ ГОСТ 75 руб/кг</a></p>
+                  </div>
+                </td>
+                <td class="table__date"> <span class="table__date-label">Время</span> 7 фев</td>
+                <td class="table__view">319</td>
+                <td>
+                  <div class="table__author">
+                    <img width="30" height="40" src="img/user.jpg" alt="Виталий Пчелинцев" class="table__img">
+                    <div class="table__user">
+                      <p class="table__name text-link"><a href="#">Виталий Пчелинцев</a></p>
+                      <p class="table__plant">ООО ОКЕАНФИШ</p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="offer__photo photo">
+            <h2 class="offer__title">Фото продукции</h2>
+            <div class="photo__wrapper">
+              <img src="img/prod-01.jpg" alt="Фото продукции" class="photo__img photo__img--active">
+              <img src="img/prod-02.jpg" alt="Фото продукции" class="photo__img">
+              <img src="img/prod-03.jpg" alt="Фото продукции" class="photo__img">
+              <img src="img/prod-04.jpg" alt="Фото продукции" class="photo__img">
+              <img src="img/prod-05.jpg" alt="Фото продукции" class="photo__img">
+              <img src="img/prod-02.jpg" alt="Фото продукции" class="photo__img">
+              <img src="img/prod-02.jpg" alt="Фото продукции" class="photo__img">
+              <img src="img/prod-03.jpg" alt="Фото продукции" class="photo__img">
+              <img src="img/prod-04.jpg" alt="Фото продукции" class="photo__img">
+              <img src="img/prod-05.jpg" alt="Фото продукции" class="photo__img">
+            </div>
+          </div>
+        </div>
+        <div class="content__description description">
+          <div class="description__header">
+            <div>
+              <img src="img/logo.png" width="180" height="80" alt="Преображенский Мясокомбинат" class="description__logo">
+            </div>
+            <div class="description__wrapper">
+              <p class="description__text"><b>Название компании:</b> ООО “Преображенский Мясоперерабатывающий Комбинат”</p>
+              <p class="description__text"><b>ОГРН (ОГРНИП):</b> 1166733069612</p>
+              <p class="description__text"><b>ИНН:</b> 6726022894</p>
+              <p class="description__text"><b>Страна:</b> Россия</p>
+              <p class="description__text"><b>Регион:</b> Тверская область</p>
+            </div>
+          </div>
+          <div class="description__wrapper">
+            <p class="description__text"><b>Описание:</b> Преображенский МПК - современное мясоперерабатывающее предприятие в Тверской области. <br>Введен в эксплуатацию в 2013 г. Основу ассортимента составляют порционные и мелкокусковые полуфабрикаты из охлажденной свинины. Продукция мясокомбината является частью вертикально-интегрированного холдинга КоПИТАНИЯФ. <br>Предприятия холдинга образуют полный цикл производства от выращивания зерна и производства комбикормов до производства свежего мяса, что позволяет снизить себестоимость и гарантировать безопасность и высокое качество продукции.</p>
+          </div>
+          <div class="description__wrapper">
+            <p class="description__text"><b>Виды деятельности:</b></p>
+            <ul>
+              <li class="description__item">Оборудование, упаковка</li>
+              <li class="description__item">Оптовая торговля</li>
+              <li class="description__item">Производитель готовой продукции</li>
+              <li class="description__item">Производитель мясного сырья</li>
+              <li class="description__item">Розничная торговля</li>
+            </ul>
+            <p class="description__text"><b>Виды продукции:</b></p>
+            <ul>
+              <li class="description__item">Свинина</li>
+              <li class="description__item">Замороженное и охлажденное мясо</li>
+              <li class="description__item">Мясные полуфабрикаты</li>
+              <li class="description__item">Колбасы, сосиски, деликатесы</li>
+            </ul>
+            <p class="description__text"><b>Товары и услуги:</b> Мясо замороженное, мясо охлажденное, свинина, субпродукты</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <aside class="main__sidebar sidebar">
+      <div class="sidebar__banner">
+        <p>Реклама</p>
+      </div>
+      <div class="sidebar__banner">
+        <p>Реклама</p>
+      </div>
+    </aside>
+  </main>
+  <script src="js/svg4everybody.min.js"></script>
+
+</body>
+
+</html>
